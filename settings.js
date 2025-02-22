@@ -5,34 +5,34 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~ZtZQwQxa#TaFUrtzHWfs6kdVX8vpKIbpfKx9vnMvxoylRLObvH80",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
-BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
+BOT_NAME: process.env.BOT_NAME || "~flaash~",
 // add bot name here for menu
 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react   
 
-STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
+STICKER_NAME: process.env.STICKER_NAME || "هيثم بيحبك",
 // type sticker pack name  
 
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
 // chose custom react emojis by yourself 
 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "tru",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "201125166486",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦",
+OWNER_NAME: process.env.OWNER_NAME || "*هيثم*🪀✦",
 // add bot owner name
 
-DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✦ɴᴇxᴜs ᴛᴇᴄʜ✦ ɪɴᴄ*",
+DESCRIPTION: process.env.DESCRIPTION || "> *© haitha_حبكم خاالص*",
 // add bot owner name    
 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/bddvfr.jpg",
@@ -62,7 +62,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto react on status (still testing)
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 هاااي xᴅ v2🚀🔥*",
 // set the auto reply massage on status reply    
 
 MODE: process.env.MODE || "public",
@@ -107,7 +107,7 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "201125166486",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
